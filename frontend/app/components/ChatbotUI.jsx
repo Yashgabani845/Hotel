@@ -1,6 +1,5 @@
 "use client"
 import React, { useState } from 'react'
-
 import { FiMessageSquare, FiX, FiSend } from 'react-icons/fi'
 
 const ChatbotUI = () => {
@@ -8,11 +7,11 @@ const ChatbotUI = () => {
   const [messages, setMessages] = useState([
     { 
       sender: 'bot', 
-      text: 'Hello! I\'m your virtual concierge. How can I assist you with your stay today?',
-      options: ['Room Booking', 'Amenities', 'Check-in/Check-out', 'Local Attractions']
+      text: 'Hi! How can I help you today?'
     }
   ])
   const [inputValue, setInputValue] = useState('')
+  const [isTyping, setIsTyping] = useState(false)
   
   const toggleChatbot = () => {
     setIsOpen(!isOpen)
@@ -22,149 +21,130 @@ const ChatbotUI = () => {
     setInputValue(e.target.value)
   }
   
-  const handleOptionClick = (option) => {
-    // Add user message
-    const newMessages = [...messages, { sender: 'user', text: option }]
-    
-    // Add bot response based on option
-    let botResponse
-    
-    switch (option) {
-      case 'Room Booking':
-        botResponse = {
-          sender: 'bot',
-          text: 'To book a room, you can use our booking widget on the website or call our reservations team at +1 (800) 123-4567. Would you like me to help with anything else?',
-          options: ['Check Availability', 'Room Types', 'Special Offers', 'Other Question']
-        }
-        break
-      case 'Amenities':
-        botResponse = {
-          sender: 'bot',
-          text: 'Our hotel features a range of amenities including a swimming pool, spa, fitness center, and 24/7 room service. What specific amenity would you like to know more about?',
-          options: ['Pool Hours', 'Spa Services', 'Fitness Center', 'Room Service Menu']
-        }
-        break
-      case 'Check-in/Check-out':
-        botResponse = {
-          sender: 'bot',
-          text: 'Our standard check-in time is 3:00 PM and check-out is 12:00 PM. Early check-in and late check-out may be available upon request, subject to availability.',
-          options: ['Request Early Check-in', 'Request Late Check-out', 'Luggage Storage', 'Other Question']
-        }
-        break
-      case 'Local Attractions':
-        botResponse = {
-          sender: 'bot',
-          text: 'There are many wonderful attractions near our hotel! Would you like recommendations for restaurants, shopping, cultural sites, or outdoor activities?',
-          options: ['Restaurants', 'Shopping', 'Cultural Sites', 'Outdoor Activities']
-        }
-        break
-      default:
-        botResponse = {
-          sender: 'bot',
-          text: 'Thank you for your question. Our concierge team will be happy to assist you further. Is there anything else I can help with?',
-          options: ['Room Booking', 'Amenities', 'Check-in/Check-out', 'Local Attractions']
-        }
-    }
-    
-    setMessages([...newMessages, botResponse])
-  }
-  
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
     
     if (inputValue.trim() === '') return
     
     // Add user message
-    const newMessages = [...messages, { sender: 'user', text: inputValue }]
-    
-    // Add generic bot response
-    const botResponse = {
-      sender: 'bot',
-      text: 'Thank you for your question. Our concierge team will get back to you soon. Is there anything else I can help with in the meantime?',
-      options: ['Room Booking', 'Amenities', 'Check-in/Check-out', 'Local Attractions']
-    }
-    
-    setMessages([...newMessages, botResponse])
+    const userMessage = { sender: 'user', text: inputValue }
+    setMessages(prev => [...prev, userMessage])
     setInputValue('')
+    setIsTyping(true)
+    
+    try {
+      // TODO: Replace with your actual API call
+      // const response = await fetch('/api/chatbot', {
+      //   method: 'POST',
+      //   headers: { 'Content-Type': 'application/json' },
+      //   body: JSON.stringify({ message: inputValue })
+      // })
+      // const data = await response.json()
+      
+      // Simulate API delay
+      await new Promise(resolve => setTimeout(resolve, 1000))
+      
+      // Add bot response (replace with actual API response)
+      const botResponse = {
+        sender: 'bot',
+        text: 'I received your message. Please connect this to your backend API to get proper responses.'
+      }
+      
+      setMessages(prev => [...prev, botResponse])
+    } catch (error) {
+      console.error('Error:', error)
+      const errorResponse = {
+        sender: 'bot',
+        text: 'Sorry, I encountered an error. Please try again.'
+      }
+      setMessages(prev => [...prev, errorResponse])
+    } finally {
+      setIsTyping(false)
+    }
   }
 
   return (
-    <div className="chatbot-container">
+    <div className="fixed bottom-6 right-6 z-50">
       {/* Chat Button */}
       <div 
-        className="chatbot-button"
+        className={`w-16 h-16 bg-primary-600 hover:bg-primary-700 rounded-full shadow-lg cursor-pointer flex items-center justify-center transition-all duration-300 hover:shadow-xl hover:scale-105 ${
+          isOpen ? 'rotate-180' : ''
+        }`}
         onClick={toggleChatbot}
       >
-        {isOpen ? <FiX size={24} /> : <FiMessageSquare size={24} />}
+        <div className="text-white transition-transform duration-300">
+          {isOpen ? <FiX size={24} /> : <FiMessageSquare size={24} />}
+        </div>
       </div>
       
       {/* Chat Panel */}
       <div 
-        className={`chatbot-panel ${isOpen ? 'opacity-100 scale-100' : 'opacity-0 scale-95 pointer-events-none'}`}
+        className={`absolute bottom-20 right-0 w-80 bg-white rounded-2xl shadow-2xl border border-gray-200 overflow-hidden transition-all duration-300 transform origin-bottom-right ${
+          isOpen ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-95 translate-y-4 pointer-events-none'
+        }`}
         style={{ height: isOpen ? '500px' : '0' }}
       >
         {/* Chat Header */}
         <div className="bg-primary-700 p-4 flex items-center">
-          <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center mr-3">
-            <FiMessageSquare className="text-primary-700" size={20} />
+          <div className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mr-3 border border-white/30">
+            <FiMessageSquare className="text-white" size={20} />
           </div>
           <div>
-            <h3 className="text-white font-medium">Virtual Concierge</h3>
-            <p className="text-primary-100 text-xs">Online | Ask me anything</p>
+            <h3 className="text-white font-semibold text-lg">Chat Assistant</h3>
+            <div className="flex items-center">
+              <div className="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></div>
+              <p className="text-primary-100 text-sm">Online</p>
+            </div>
           </div>
         </div>
         
         {/* Chat Messages */}
-        <div className="h-[380px] overflow-y-auto p-4 bg-gray-50">
+        <div className="h-80 overflow-y-auto p-4 bg-gradient-to-b from-gray-50 to-white space-y-4">
           {messages.map((message, index) => (
-            <div key={index} className="mb-4">
+            <div key={index} className={`flex ${message.sender === 'user' ? 'justify-end' : 'justify-start'}`}>
               <div 
-                className={`flex ${message.sender === 'user' ? 'justify-end' : 'justify-start'}`}
+                className={`max-w-xs rounded-2xl px-4 py-3 shadow-sm ${
+                  message.sender === 'user' 
+                    ? 'bg-primary-600 text-white rounded-tr-md' 
+                    : 'bg-white text-gray-800 rounded-tl-md border border-gray-100'
+                }`}
               >
-                <div 
-                  className={`max-w-[80%] rounded-lg p-3 ${
-                    message.sender === 'user' 
-                      ? 'bg-primary-600 text-white rounded-tr-none' 
-                      : 'bg-white text-gray-800 rounded-tl-none shadow-sm'
-                  }`}
-                >
-                  <p>{message.text}</p>
-                </div>
+                <p className="text-sm leading-relaxed">{message.text}</p>
               </div>
-              
-              {/* Options buttons for bot messages */}
-              {message.sender === 'bot' && message.options && (
-                <div className="mt-2 ml-2 flex flex-wrap gap-2">
-                  {message.options.map((option, optIndex) => (
-                    <button 
-                      key={optIndex}
-                      className="bg-white text-primary-600 text-sm border border-primary-300 rounded-full px-3 py-1 hover:bg-primary-50 transition-colors"
-                      onClick={() => handleOptionClick(option)}
-                    >
-                      {option}
-                    </button>
-                  ))}
-                </div>
-              )}
             </div>
           ))}
+          
+          {/* Typing Indicator */}
+          {isTyping && (
+            <div className="flex justify-start">
+              <div className="bg-white text-gray-800 rounded-2xl rounded-tl-md px-4 py-3 shadow-sm border border-gray-100">
+                <div className="flex space-x-1">
+                  <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce"></div>
+                  <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
+                  <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
         
         {/* Chat Input */}
-        <div className="p-3 bg-white border-t">
-          <form onSubmit={handleSubmit} className="flex items-center">
+        <div className="p-4 bg-white border-t border-gray-100">
+          <form onSubmit={handleSubmit} className="flex items-center space-x-2">
             <input 
               type="text" 
               value={inputValue}
               onChange={handleInputChange}
-              placeholder="Type your question here..." 
-              className="flex-grow px-3 py-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-1 focus:ring-primary-500"
+              placeholder="Type your message..." 
+              className="flex-1 px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 text-sm"
+              disabled={isTyping}
             />
             <button 
               type="submit" 
-              className="bg-primary-600 text-white p-2 rounded-r-md hover:bg-primary-700 transition-colors"
+              disabled={isTyping || !inputValue.trim()}
+              className="bg-primary-600 hover:bg-primary-700 text-white p-3 rounded-xl hover:shadow-lg transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed transform hover:scale-105 active:scale-95"
             >
-              <FiSend size={20} />
+              <FiSend size={18} />
             </button>
           </form>
         </div>

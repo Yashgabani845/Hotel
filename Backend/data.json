@@ -1,0 +1,128 @@
+[
+  {
+    "id": "timings-1",
+    "text": "Welcome to Paradise Resort! Our standard check-in time is 2:00 PM, allowing our housekeeping staff ample time to prepare your room to perfection. Check-out is by 11:00 AM on the day of departure. Early check-in or late check-out can be requested in advance and is subject to availability. For guests arriving early, we offer luggage storage and access to common areas until your room is ready.",
+    "metadata": { "category": "timings" }
+  },
+  {
+    "id": "pricing-overview",
+    "text": "Our room pricing is designed to cater to a wide range of guests. Standard Rooms start at $99 per night and offer essential comforts, while Deluxe Rooms at $149 include a balcony with a scenic view. For those seeking ultimate luxury, our Suite Rooms are available at $220 per night and feature a private lounge, jacuzzi, and 24/7 room service. All prices include complimentary breakfast and Wi-Fi access.",
+    "metadata": { "category": "pricing" }
+  },
+  {
+    "id": "about-hotel",
+    "text": "Paradise Resort is nestled in the heart of the Aravalli Hills, just 15 minutes away from the historic city center. Spread across 10 acres of lush greenery, our resort offers a tranquil escape from city life. Guests can enjoy traditional Rajasthani architecture blended with modern amenities, making it a perfect destination for both relaxation and cultural exploration.",
+    "metadata": { "category": "about" }
+  },
+  {
+    "id": "services-general",
+    "text": "We pride ourselves on providing a wide range of services to ensure a memorable stay. From 24/7 concierge and valet parking to daily housekeeping and laundry services, everything is taken care of. Guests can enjoy our state-of-the-art gym, spa treatments, yoga sessions, and a kid-friendly play zone. Our guided local tours and bike rentals are popular among adventure enthusiasts.",
+    "metadata": { "category": "services" }
+  },
+  {
+    "id": "room-details-deluxe",
+    "text": "Deluxe Rooms are designed for comfort and elegance. Each room includes a king-sized bed with orthopedic mattresses, a mini-bar, personal safe, and an attached bathroom with premium toiletries. The private balcony offers panoramic views of the hills. Interiors are decorated with local art and handwoven fabrics, adding an authentic touch to your stay.",
+    "metadata": { "category": "rooms", "room_type": "deluxe" }
+  },
+  {
+    "id": "packages-family-getaway",
+    "text": "Our Family Getaway Package is ideal for groups looking to reconnect and unwind. Priced at $399 per night, it includes two Deluxe Rooms, a complimentary buffet dinner, a bonfire night with live folk music, and a guided tour to the heritage fort. Children under 12 stay free. The package also offers 20% off on spa services and free access to the kids’ adventure zone.",
+    "metadata": { "category": "packages", "package_type": "family" }
+  },
+  {
+    "id": "nearby-places-1",
+    "text": "While staying at Paradise Resort, don’t miss exploring the vibrant nearby attractions. The Sunflower Valley, just 3 km away, is a breathtaking field known for its sunrise walks and photography. The ancient Amber Fort, 12 km from the resort, offers guided history tours and light shows in the evening. Local craft villages nearby let you experience traditional pottery and block printing firsthand.",
+    "metadata": { "category": "nearby_places" }
+  },
+  {
+    "id": "contact-booking",
+    "text": "To make a reservation, guests can contact us at +91-9876543210 or email bookings@paradiseresort.com. Our reservation desk operates 24/7 to assist with bookings, special requests, group discounts, and event planning. You can also book directly through our website www.paradiseresort.com where you can access exclusive offers and seasonal discounts.",
+    "metadata": { "category": "contact" }
+  },
+  {
+    "id": "culinary-experiences",
+    "text": "Dining at Paradise Resort is an experience in itself. Our rooftop restaurant 'Mehfil' serves traditional Rajasthani thalis alongside international cuisine. Our chefs use fresh, locally sourced ingredients and cater to special dietary needs. Don’t miss the live cooking counters during dinner or the weekend BBQ nights with live music under the stars.",
+    "metadata": { "category": "culinary" }
+  },
+  {
+    "id": "faq-general",
+    "text": "Q: Do you provide airport pick-up?\nA: Yes, we offer complimentary airport pick-up for all direct bookings.\n\nQ: Are pets allowed?\nA: Unfortunately, pets are not allowed at the resort.\n\nQ: Is Wi-Fi available?\nA: Yes, high-speed Wi-Fi is complimentary and available throughout the resort.\n\nQ: Can we host events?\nA: Absolutely. We have a banquet hall and outdoor lawn suitable for weddings, parties, and corporate events.",
+    "metadata": { "category": "faq" }
+  },
+  {
+    "id": "greeting-1",
+    "text": "Welcome to Paradise Resort – your perfect escape nestled amidst nature and luxury! Whether you're planning a romantic getaway, a family vacation, or a solo retreat, we're thrilled to have you here. Feel free to ask us anything about our services, rooms, packages, or local attractions. We're here to make your stay unforgettable!",
+    "metadata": { "category": "greeting" }
+  },
+  {
+    "id": "suggestion-budget",
+    "text": "If you're traveling on a budget, we recommend our Standard Room package starting at just $99 per night. It includes free breakfast, complimentary Wi-Fi, and access to our pool and common lounge. It's a great choice for solo travelers or couples looking for a comfortable yet affordable stay without compromising on quality.",
+    "metadata": { "category": "suggestion", "type": "budget" }
+  },
+  {
+    "id": "suggestion-family-small",
+    "text": "For a small family of 3 to 4 members, our Deluxe Room or Family Getaway Package is ideal. It provides two interconnected rooms, complimentary meals for children under 10, access to the kids’ play zone, and guided nature walks. Priced at $349 per night, it offers the perfect balance of space, entertainment, and relaxation.",
+    "metadata": { "category": "suggestion", "type": "family_small" }
+  },
+  {
+    "id": "suggestion-family-large",
+    "text": "For large families or groups (5 or more members), our Premium Suite or Group Celebration Package is recommended. This includes two suites with private balconies, a dedicated butler, bonfire night with dinner, and sightseeing transportation. It starts at $799 per night and includes personalized concierge services for a seamless experience.",
+    "metadata": { "category": "suggestion", "type": "family_large" }
+  },
+  {
+    "id": "cancellation-policy",
+    "text": "We understand that plans change. Our cancellation policy offers flexibility for our guests. Cancellations made 7 days prior to the check-in date are eligible for a full refund. Cancellations made within 7 days incur a 50% charge, while no-shows or same-day cancellations are non-refundable. For group or package bookings, please refer to the specific terms provided at the time of booking.",
+    "metadata": { "category": "cancellation_policy" }
+  },
+  {
+    "id": "faq-1",
+    "text": "Q: Is parking available?\nA: Yes, we offer free on-site valet parking for all guests.",
+    "metadata": { "category": "faq" }
+  },
+  {
+    "id": "faq-2",
+    "text": "Q: Do you offer rooms with mountain views?\nA: Absolutely! Our Deluxe and Suite Rooms offer beautiful views of the surrounding hills and valleys.",
+    "metadata": { "category": "faq" }
+  },
+  {
+    "id": "faq-3",
+    "text": "Q: Is early check-in allowed?\nA: Yes, early check-in is available based on availability. Please notify us in advance.",
+    "metadata": { "category": "faq" }
+  },
+  {
+    "id": "faq-4",
+    "text": "Q: Are there activities for children?\nA: Yes, we have a kids' play zone, storytelling sessions, and weekend puppet shows for young guests.",
+    "metadata": { "category": "faq" }
+  },
+  {
+    "id": "faq-5",
+    "text": "Q: Is the resort pet-friendly?\nA: We currently do not allow pets on the premises.",
+    "metadata": { "category": "faq" }
+  },
+  {
+    "id": "faq-6",
+    "text": "Q: Do rooms have air conditioning?\nA: Yes, all rooms are equipped with modern air conditioning systems.",
+    "metadata": { "category": "faq" }
+  },
+  {
+    "id": "faq-7",
+    "text": "Q: What payment methods are accepted?\nA: We accept all major credit cards, debit cards, UPI, and net banking.",
+    "metadata": { "category": "faq" }
+  },
+  {
+    "id": "faq-8",
+    "text": "Q: Can I modify my booking?\nA: Yes, bookings can be modified up to 48 hours before the check-in date, subject to availability.",
+    "metadata": { "category": "faq" }
+  },
+  {
+    "id": "faq-9",
+    "text": "Q: Do you offer laundry services?\nA: Yes, same-day laundry and ironing services are available at an additional charge.",
+    "metadata": { "category": "faq" }
+  },
+  {
+    "id": "faq-10",
+    "text": "Q: Is there a doctor on call?\nA: Yes, we provide 24/7 doctor-on-call service for emergencies.",
+    "metadata": { "category": "faq" }
+  }
+]
+

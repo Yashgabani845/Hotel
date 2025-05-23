@@ -7,10 +7,8 @@ const Footer = () => {
 
   return (
     <footer className="bg-gray-900 text-white">
-      {/* Main Footer */}
       <div className="container mx-auto py-16 px-4 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-          {/* About Hotel */}
           <div>
             <h3 className="font-serif text-2xl font-bold mb-6">Luxury Resort</h3>
             <p className="text-gray-400 mb-6 leading-relaxed">
@@ -35,7 +33,6 @@ const Footer = () => {
             </div>
           </div>
           
-          {/* Quick Links */}
           <div>
             <h4 className="text-lg font-medium mb-6">Quick Links</h4>
             <ul className="space-y-3">
@@ -49,7 +46,6 @@ const Footer = () => {
             </ul>
           </div>
           
-          {/* Contact */}
           <div>
             <h4 className="text-lg font-medium mb-6">Contact Us</h4>
             <ul className="space-y-3 text-gray-400">
@@ -69,7 +65,6 @@ const Footer = () => {
             </ul>
           </div>
           
-          {/* Newsletter */}
           <div>
             <h4 className="text-lg font-medium mb-6">Newsletter</h4>
             <p className="text-gray-400 mb-4">
@@ -93,7 +88,6 @@ const Footer = () => {
         </div>
       </div>
       
-      {/* Awards & Recognition */}
       <div className="bg-gray-800 py-8">
         <div className="container mx-auto px-4 md:px-8">
           <h4 className="text-lg font-medium mb-6 text-center">Awards & Recognition</h4>
@@ -110,7 +104,6 @@ const Footer = () => {
         </div>
       </div>
       
-      {/* Bottom Footer */}
       <div className="bg-gray-950 py-6">
         <div className="container mx-auto px-4 md:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center">

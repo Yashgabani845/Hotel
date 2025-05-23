@@ -3,7 +3,6 @@ import { FiCalendar, FiUsers, FiSearch } from 'react-icons/fi'
 const HeroSection = () => {
   return (
     <section id="home" className="relative h-screen w-full overflow-hidden">
-      {/* Video Background */}
       <div className="absolute inset-0 w-full h-full">
         <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
         <video 
@@ -18,7 +17,6 @@ const HeroSection = () => {
         </video>
       </div>
 
-      {/* Hero Content */}
       <div className="relative z-20 h-full flex flex-col justify-center items-center text-center px-4 md:px-8">
         <div className="animate-fade-in">
           <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 tracking-tight">
@@ -34,7 +32,6 @@ const HeroSection = () => {
           </a>
         </div>
 
-        {/* Search Bar */}
         <div className="absolute bottom-12 left-0 right-0 mx-auto max-w-4xl bg-white/95 backdrop-blur rounded-lg shadow-xl p-4 md:p-6 transform translate-y-0 animate-slide-up hidden md:block">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             <div className="flex flex-col">
