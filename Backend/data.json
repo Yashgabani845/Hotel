@@ -123,6 +123,356 @@
     "id": "faq-10",
     "text": "Q: Is there a doctor on call?\nA: Yes, we provide 24/7 doctor-on-call service for emergencies.",
     "metadata": { "category": "faq" }
+  },
+  {
+    "id": "restaurant-1",
+    "text": "Welcome to 'The Azure Bistro,' our main dining establishment at Paradise Resort. We serve a delicious buffet breakfast from 7:00 AM to 10:30 AM daily, featuring both international and local delicacies. Lunch is available à la carte from 12:00 PM to 3:00 PM, offering a diverse menu to satisfy all palates. Dinner service commences at 6:30 PM and continues until 10:30 PM, with our chefs preparing exquisite dishes using the freshest ingredients. We recommend making dinner reservations, especially during peak season, to ensure you get your preferred seating time. Our friendly staff is always on hand to assist you with any dietary requirements or special requests.",
+    "metadata": {
+      "category": "restaurant-timings"
+    }
+  },
+  {
+    "id": "restaurant-2",
+    "text": "Paradise Resort offers a variety of dining experiences to cater to every taste. 'The Azure Bistro' is our all-day dining restaurant. For a taste of authentic local cuisine, visit 'Spice Route,' open for dinner only from 7:00 PM to 10:00 PM. If you're craving something lighter or a quick bite, 'The Poolside Grill' serves snacks and beverages from 11:00 AM to 6:00 PM. Additionally, we have 'Skyline Bar,' offering breathtaking views and a selection of cocktails and appetizers from 5:00 PM until midnight. Each venue provides a unique ambiance and culinary journey for our guests.",
+    "metadata": {
+      "category": "restaurant-options"
+    }
+  },
+  {
+    "id": "restaurant-3",
+    "text": "Yes, we are delighted to accommodate various **dietary restrictions and allergies** at all our restaurants. When making your reservation or ordering, please inform our staff about any specific requirements you may have, such as gluten-free, dairy-free, nut allergies, or vegetarian/vegan preferences. Our culinary team is highly experienced in preparing meals that cater to these needs while ensuring they are still delicious and satisfying. We take cross-contamination very seriously and implement strict protocols in our kitchens. Don't hesitate to speak with the chef directly if you have any concerns or wish to discuss your meal options in detail.",
+    "metadata": {
+      "category": "dietary-restrictions"
+    }
+  },
+  {
+    "id": "restaurant-4",
+    "text": "For **reservations** at our restaurants, especially 'Spice Route' and during peak dinner hours at 'The Azure Bistro,' we highly recommend booking in advance. You can make reservations by contacting our concierge desk, calling the restaurant directly, or using the in-room tablet. We advise booking at least 24 hours ahead to secure your preferred time, particularly for larger groups or special occasions. While walk-ins are welcome, availability cannot be guaranteed. Our team will do their best to accommodate you, but pre-booking ensures a seamless dining experience during your stay.",
+    "metadata": {
+      "category": "restaurant-reservations"
+    }
+  },
+  {
+    "id": "restaurant-5",
+    "text": "Absolutely! **Room service** is available 24 hours a day for your convenience. Our extensive in-room dining menu features a wide selection of dishes from our main restaurants, including breakfast, lunch, dinner, and late-night snacks. You can find the menu in your room or access it via the in-room tablet. Simply call the designated room service number, and your order will be delivered promptly to your door. Whether you prefer a quiet meal in your room or a midnight snack, our room service team is ready to cater to your culinary desires.",
+    "metadata": {
+      "category": "room-service"
+    }
+  },
+  {
+    "id": "restaurant-6",
+    "text": "Yes, we are pleased to offer a dedicated **children's menu** at 'The Azure Bistro' and 'The Poolside Grill.' Our children's menu features kid-friendly portions and dishes designed to appeal to younger palates, including favorites like pasta, chicken nuggets, and mini pizzas, alongside healthier options. We understand the importance of making dining enjoyable for families, and our staff is always happy to assist with any specific requests for your little ones, such as high chairs or warmed baby food. Just ask our servers for the children's menu when you dine with us.",
+    "metadata": {
+      "category": "childrens-menu"
+    }
+  },
+  {
+    "id": "restaurant-7",
+    "text": "We offer a variety of **breakfast options** at Paradise Resort. Our complimentary buffet breakfast, served at 'The Azure Bistro,' features an extensive spread including fresh fruits, pastries, cereals, hot dishes like eggs, bacon, sausages, and local specialties. There are also live cooking stations for made-to-order omelets and dosas. For guests who prefer a more private start to their day, we also offer an à la carte breakfast menu via room service. Additionally, early risers can grab quick bites and coffee at 'The Lobby Cafe' before 7:00 AM.",
+    "metadata": {
+      "category": "breakfast-options"
+    }
+  },
+  {
+    "id": "restaurant-8",
+    "text": "The **dress code** for our restaurants varies slightly depending on the venue. For 'The Azure Bistro' and 'The Poolside Grill,' the dress code is casual resort wear. Shorts, t-shirts, and sandals are perfectly acceptable during the day. In the evenings, we recommend smart casual attire for 'The Azure Bistro,' meaning collared shirts for gentlemen and no beachwear. For 'Spice Route,' our fine-dining Indian restaurant, we request smart casual or elegant attire; no shorts, tank tops, or flip-flops are permitted to maintain the upscale ambiance. Your comfort is important, but we appreciate adherence to these guidelines.",
+    "metadata": {
+      "category": "dress-code"
+    }
+  },
+  {
+    "id": "restaurant-9",
+    "text": "Yes, we regularly host **special themed dinners and culinary events** at Paradise Resort. These can range from seafood BBQs by the beach to international buffet nights or even cooking classes with our expert chefs. Details about upcoming events are usually displayed at the reception desk, announced through our in-room information channels, or shared with guests upon check-in. We encourage you to inquire with our concierge during your stay to find out what exciting culinary experiences are planned. These events often require advance booking due to their popularity.",
+    "metadata": {
+      "category": "special-events"
+    }
+  },
+  {
+    "id": "restaurant-10",
+    "text": "Absolutely, our restaurants offer a wide selection of **alcoholic and non-alcoholic beverages**. You'll find a comprehensive wine list featuring international and local labels, along with a variety of beers, spirits, and expertly crafted cocktails at 'The Azure Bistro,' 'Spice Route,' and 'Skyline Bar.' For non-alcoholic options, we serve fresh juices, soft drinks, mocktails, coffee, and a range of teas. Our bartenders are also happy to create custom drinks based on your preferences. Please note that alcohol service follows local regulations regarding age limits.",
+    "metadata": {
+      "category": "beverage-options"
+    }
+  },
+  {
+    "id": "restaurant-11",
+    "text": "Yes, we are delighted to provide **private dining options** for special occasions or intimate gatherings. Whether it's a romantic dinner for two on the beach, a celebratory family meal in a secluded area, or a corporate dinner, our team can arrange a tailored experience. We offer bespoke menus, personalized decor, and dedicated service to make your event truly memorable. Please contact our events team or the concierge in advance to discuss your requirements and allow us to create the perfect private dining setting for you at Paradise Resort.",
+    "metadata": {
+      "category": "private-dining"
+    }
+  },
+  {
+    "id": "restaurant-12",
+    "text": "For guests celebrating **birthdays or anniversaries**, we love to make your special day even more memorable. Please inform our restaurant staff or concierge when making your reservation or upon arrival that you are celebrating. We can arrange for a complimentary dessert, a small celebratory cake, or even a personalized table setup. Our team is dedicated to creating a delightful experience for your special occasion. Don't hesitate to let us know how we can add a touch of magic to your celebration at Paradise Resort.",
+    "metadata": {
+      "category": "celebrations"
+    }
+  },
+  {
+    "id": "restaurant-13",
+    "text": "While we do not have a separate designated 'vegan restaurant,' all our dining venues, especially 'The Azure Bistro' and 'Spice Route,' offer excellent **vegan options**. Our chefs are well-versed in preparing delicious plant-based meals. When ordering, simply inform your server that you are vegan, and they will guide you through the menu or offer customized dishes. We use fresh, seasonal ingredients to ensure a flavorful and satisfying vegan dining experience. Feel free to speak with the chef if you have any specific preferences or require further assistance.",
+    "metadata": {
+      "category": "vegan-options"
+    }
+  },
+  {
+    "id": "restaurant-14",
+    "text": "Absolutely, our restaurants are equipped with **high chairs** for our younger guests. Please inform our host or server upon arrival that you require a high chair, and they will happily provide one for your child. We aim to make dining with children as comfortable and convenient as possible for families. Additionally, our staff is always ready to assist with any other needs you may have for your little ones during your meal, ensuring a pleasant dining experience for the entire family at Paradise Resort.",
+    "metadata": {
+      "category": "high-chairs"
+    }
+  },
+  {
+    "id": "restaurant-15",
+    "text": "Yes, 'The Poolside Grill' offers a fantastic **al fresco dining** experience by the main swimming pool. It's the perfect spot to enjoy light meals, snacks, and refreshing beverages in a relaxed outdoor setting, with the gentle breeze and lush surroundings. In the evenings, weather permitting, 'The Azure Bistro' also features an outdoor terrace for a more formal al fresco dinner. We recommend checking with the restaurant staff for availability of outdoor seating, especially during peak times, to enjoy the beautiful resort ambiance.",
+    "metadata": {
+      "category": "al-fresco-dining"
+    }
+  },
+  {
+    "id": "restaurant-16",
+    "text": "At Paradise Resort, we focus on providing a wide range of choices rather than offering a specific 'all-inclusive' meal plan for dining. Our restaurants operate on an à la carte basis, allowing you the flexibility to choose exactly what you'd like. However, we do offer **meal packages** that include breakfast and dinner, or breakfast, lunch, and dinner, which can be added to your room rate. These packages often provide excellent value for guests planning to dine primarily at the resort. Please inquire with our reservations team for details on available meal package options during your booking.",
+    "metadata": {
+      "category": "meal-plans"
+    }
+  },
+  {
+    "id": "restaurant-17",
+    "text": "For information on the **origin of our ingredients**, we are proud to say that we prioritize sourcing fresh, local, and sustainable produce whenever possible. Our chefs work closely with local farmers and suppliers to ensure the highest quality ingredients in our dishes. We believe in supporting the local community and minimizing our environmental footprint. If you have specific questions about a particular ingredient or dish, our restaurant staff or chefs would be delighted to provide more details during your dining experience at Paradise Resort.",
+    "metadata": {
+      "category": "ingredient-sourcing"
+    }
+  },
+  {
+    "id": "restaurant-18",
+    "text": "Yes, we offer **takeaway options** from 'The Azure Bistro' and 'The Poolside Grill' for your convenience. If you wish to enjoy your meal in your room, by the pool, or at another location within the resort, simply place your order with the restaurant staff. They will pack your food in appropriate containers for easy transport. Please note that a small service charge may apply for takeaway orders. This service is ideal if you prefer a casual meal in your own space without ordering full room service.",
+    "metadata": {
+      "category": "takeaway-options"
+    }
+  },
+  {
+    "id": "restaurant-19",
+    "text": "You can absolutely **charge your restaurant meals to your room**. This is the most convenient way to settle your bills at any of our dining establishments. Simply provide your room number and sign the bill at the end of your meal. All charges will be added to your final room folio, which you can review upon check-out. This cashless system allows for a seamless and hassle-free dining experience throughout your stay at Paradise Resort.",
+    "metadata": {
+      "category": "payment-options"
+    }
+  },
+  {
+    "id": "restaurant-20",
+    "text": "Our chefs at Paradise Resort are passionate about creating exceptional culinary experiences. We are always open to preparing **customized dishes or special requests** for our guests, provided we have the necessary ingredients and advance notice. If you have a specific dish in mind that isn't on our menu, or if you'd like a modification to an existing item, please speak with our restaurant manager or the chef directly. We'll do our utmost to fulfill your request and ensure your dining experience is exactly as you envision it.",
+    "metadata": {
+      "category": "custom-dishes"
+    }
+  },
+  {
+    "id": "restaurant-21",
+    "text": "The Paradise Resort offers a delightful **afternoon tea** experience at 'The Lobby Cafe' daily from 3:00 PM to 5:00 PM. Indulge in a selection of freshly baked scones, delicate pastries, finger sandwiches, and an assortment of premium teas and coffees. It’s the perfect way to relax and unwind after a day of activities, offering a charming and sophisticated interlude. Reservations are recommended, especially for larger groups, to ensure we can prepare a truly exquisite experience for you.",
+    "metadata": {
+      "category": "afternoon-tea"
+    }
+  },
+  {
+    "id": "restaurant-22",
+    "text": "Yes, all our restaurants, including 'The Azure Bistro,' 'Spice Route,' and 'The Poolside Grill,' are fully **wheelchair accessible**. We have ramps and wide doorways to ensure easy navigation for guests with mobility challenges. Our staff is also trained to provide assistance and ensure a comfortable dining experience for everyone. Please inform us in advance if you require any special seating arrangements or assistance, and we will be happy to accommodate your needs to the best of our ability at Paradise Resort.",
+    "metadata": {
+      "category": "accessibility"
+    }
+  },
+  {
+    "id": "restaurant-23",
+    "text": "Our **bar and lounge areas** at Paradise Resort offer a sophisticated yet relaxed atmosphere. 'Skyline Bar' provides stunning panoramic views, perfect for sunset cocktails and evening drinks, open from 5:00 PM to midnight. 'The Poolside Grill' also serves a range of refreshing alcoholic and non-alcoholic beverages throughout the day until 6:00 PM. Each bar boasts a diverse menu of cocktails, fine wines, spirits, and beers. Our expert mixologists are always ready to craft your favorite drink or recommend something new to try.",
+    "metadata": {
+      "category": "bar-lounge"
+    }
+  },
+  {
+    "id": "restaurant-24",
+    "text": "We understand that some guests prefer to dine at their own pace. While we generally encourage reservations for dinner at 'Spice Route' and during peak times at 'The Azure Bistro,' **walk-ins are welcome** at all our restaurants, subject to availability. If there is a wait, our host will provide you with an estimated waiting time, and you are welcome to relax in our lounge areas or enjoy a drink at the bar until your table is ready. We strive to accommodate all our guests efficiently.",
+    "metadata": {
+      "category": "walk-ins"
+    }
+  },
+  {
+    "id": "restaurant-25",
+    "text": "Yes, we are pleased to offer **complimentary Wi-Fi access** throughout all our restaurant areas at Paradise Resort. You can easily connect to our guest Wi-Fi network to browse the internet, check emails, or share your dining experience on social media. The network details will be provided at the reception desk or can be found on your in-room information. Enjoy staying connected while savoring your delicious meals in our beautiful dining venues.",
+    "metadata": {
+      "category": "wifi-availability"
+    }
+  },
+  {
+    "id": "restaurant-26",
+    "text": "Our **signature dishes** at Paradise Resort are a true highlight of our culinary offerings. At 'The Azure Bistro,' don't miss our pan-seared local catch with lemon butter sauce. For an authentic taste of India at 'Spice Route,' our Chef's Special Lamb Rogan Josh and assorted bread basket are highly recommended. 'The Poolside Grill' is renowned for its gourmet burgers and refreshing tropical fruit platters. Each restaurant offers unique specialties crafted by our talented chefs, showcasing the best of local and international flavors.",
+    "metadata": {
+      "category": "signature-dishes"
+    }
+  },
+  {
+    "id": "restaurant-27",
+    "text": "The price range at our restaurants varies to cater to different preferences and budgets. 'The Azure Bistro' offers a mid-range dining experience, with average main courses costing between $20-$40. 'Spice Route' is our fine-dining option, where main courses typically range from $30-$50. 'The Poolside Grill' is more casual, with prices for snacks and light meals ranging from $10-$25. Our menus are available for review at each restaurant or can be accessed via your in-room tablet, providing transparency on pricing.",
+    "metadata": {
+      "category": "price-range"
+    }
+  },
+  {
+    "id": "restaurant-28",
+    "text": "Yes, we provide **private rooms for group dining** at 'The Azure Bistro' and 'Spice Route,' ideal for corporate events, family gatherings, or intimate celebrations. These spaces offer a more secluded and personalized dining experience. Depending on the size of your group and the specific restaurant, we can accommodate various seating arrangements. We recommend booking these private dining rooms well in advance, as they are popular. Please contact our events team or the restaurant manager to discuss your requirements and availability.",
+    "metadata": {
+      "category": "group-dining"
+    }
+  },
+  {
+    "id": "restaurant-29",
+    "text": "Our **wine list** at Paradise Resort is curated to complement our diverse culinary offerings. At 'The Azure Bistro' and 'Spice Route,' you'll find an extensive selection of international wines, including robust reds, crisp whites, and sparkling wines from renowned vineyards around the world. We also feature a selection of fine Indian wines. Our sommelier or knowledgeable staff can assist you in choosing the perfect pairing for your meal, ensuring an enhanced dining experience. Cheers to an exquisite culinary journey!",
+    "metadata": {
+      "category": "wine-list"
+    }
+  },
+  {
+    "id": "restaurant-30",
+    "text": "Absolutely, we love to celebrate special moments with our guests! If you're planning a **surprise proposal or a romantic dinner** at Paradise Resort, please let our concierge or restaurant team know in advance. We can assist with arranging a private table, special decorations, a personalized menu, or even a discreet photographer. Our team is dedicated to creating unforgettable memories and will work with you to ensure every detail is perfect for your special occasion. Just share your vision with us!",
+    "metadata": {
+      "category": "romantic-dining"
+    }
+  },
+  {
+    "id": "restaurant-31",
+    "text": "Yes, we encourage our guests to leave **feedback** on their dining experiences at Paradise Resort. You can provide feedback through the guest survey available in your room, via our website, or by speaking directly with a restaurant manager or the guest relations team. We highly value your comments, as they help us to continuously improve our services and ensure that we are meeting and exceeding your expectations. Your insights are invaluable to us in maintaining our high standards of hospitality.",
+    "metadata": {
+      "category": "feedback-channels"
+    }
+  },
+  {
+    "id": "restaurant-32",
+    "text": "We are proud to serve **fresh seafood** caught locally whenever possible. Our chefs at 'The Azure Bistro' and 'The Poolside Grill' incorporate the freshest catches of the day into our menus, offering a variety of grilled fish, prawns, and other seasonal seafood delicacies. The availability of certain seafood items may vary based on the season and daily catch, ensuring you receive the freshest possible ingredients. Please inquire with your server about the daily seafood specials for the freshest options.",
+    "metadata": {
+      "category": "seafood-options"
+    }
+  },
+  {
+    "id": "restaurant-33",
+    "text": "While we strive to provide a serene dining atmosphere, we understand that noise levels can vary. 'The Azure Bistro' can be lively, especially during peak breakfast and dinner hours. 'Spice Route' offers a more intimate and quieter ambiance, ideal for relaxed conversations. 'The Poolside Grill' is generally more casual and may have background noise from the pool area. If you prefer a quieter table, please mention it when making your reservation, and we will do our best to accommodate your preference.",
+    "metadata": {
+      "category": "noise-levels"
+    }
+  },
+  {
+    "id": "restaurant-34",
+    "text": "Yes, we offer **gift certificates** for our restaurants, which make a wonderful present for friends, family, or colleagues. You can purchase gift certificates for a specific monetary value or for a particular dining experience, such as a romantic dinner for two. These can be purchased at the reception desk or through our website. They are a perfect way to share the exquisite culinary journey offered at Paradise Resort with your loved ones for any special occasion.",
+    "metadata": {
+      "category": "gift-certificates"
+    }
+  },
+  {
+    "id": "restaurant-35",
+    "text": "Our breakfast buffet at 'The Azure Bistro' is included for many of our room packages. To confirm if **breakfast is included** in your booking, please refer to your reservation confirmation email or voucher. Alternatively, you can inquire with our front desk staff upon check-in, and they will be happy to clarify your specific meal plan details. If breakfast is not included, you are welcome to purchase it separately at the restaurant or opt for room service.",
+    "metadata": {
+      "category": "breakfast-inclusion"
+    }
+  },
+  {
+    "id": "restaurant-36",
+    "text": "Paradise Resort welcomes **non-hotel guests** to dine at our restaurants. Whether you're a local looking for a great meal or visiting the area, we'd be delighted to host you. We recommend making a reservation, especially for dinner at 'Spice Route' or 'The Azure Bistro,' to ensure availability. Please note that parking might be limited during peak times, so we advise checking with our concierge if you are driving. Come and experience our culinary delights!",
+    "metadata": {
+      "category": "non-hotel-guests"
+    }
+  },
+  {
+    "id": "restaurant-37",
+    "text": "Yes, we provide **takeout boxes** for unfinished meals upon request. We understand that sometimes portions can be generous or you simply wish to save some for later. Please inform your server, and they will arrange for your leftovers to be safely packed for you to enjoy at your convenience. We strive to minimize food waste and are happy to help you take your delicious meal with you from any of our dining establishments.",
+    "metadata": {
+      "category": "takeout-boxes"
+    }
+  },
+  {
+    "id": "restaurant-38",
+    "text": "Our 'Skyline Bar' is the perfect spot for **happy hour** at Paradise Resort. We offer special promotions on selected cocktails, beers, and spirits daily from 5:00 PM to 7:00 PM. It's an ideal opportunity to enjoy stunning sunset views over the resort while savoring your favorite drinks at a special price. Keep an eye out for our daily specials advertised at the bar or check with our staff for the current happy hour offerings.",
+    "metadata": {
+      "category": "happy-hour"
+    }
+  },
+  {
+    "id": "restaurant-39",
+    "text": "Yes, we have several options for enjoying **coffee and tea** throughout your stay. 'The Lobby Cafe' offers a selection of gourmet coffees, specialty teas, and light snacks from early morning until late evening. All our restaurants also serve a variety of freshly brewed coffees, espressos, cappuccinos, and a range of black and herbal teas. Additionally, each guest room is equipped with a coffee and tea making facility for your convenience.",
+    "metadata": {
+      "category": "coffee-tea-options"
+    }
+  },
+  {
+    "id": "restaurant-40",
+    "text": "We understand that plans can change. For **cancellation of restaurant reservations**, we kindly request that you inform us at least 2 hours in advance. This allows us to reallocate the table to other guests. For private dining reservations or special events, a longer cancellation notice period may apply, which will be communicated at the time of booking. You can cancel by contacting the concierge desk or the restaurant directly. Your cooperation is greatly appreciated.",
+    "metadata": {
+      "category": "reservation-cancellation"
+    }
+  },
+  {
+    "id": "restaurant-41",
+    "text": "Our **chefs' culinary backgrounds** at Paradise Resort are diverse and impressive, bringing a wealth of international experience to our kitchens. Our Executive Chef has trained in Michelin-starred restaurants across Europe, while our Head Chef at 'Spice Route' is renowned for his expertise in authentic Indian regional cuisines. Our culinary team is composed of passionate professionals from various culinary schools, ensuring a rich tapestry of flavors and techniques in every dish served across our restaurants.",
+    "metadata": {
+      "category": "chef-backgrounds"
+    }
+  },
+  {
+    "id": "restaurant-42",
+    "text": "For our valued guests, we do offer **loyalty programs or special discounts** on dining at Paradise Resort. If you are a member of our resort's loyalty program, please present your membership card or details to the restaurant staff to avail of any applicable discounts. We also periodically run special promotions or seasonal offers for dining, which will be advertised at the reception or through our in-room information channels. Inquire with our front desk for current offers.",
+    "metadata": {
+      "category": "loyalty-discounts"
+    }
+  },
+  {
+    "id": "restaurant-43",
+    "text": "Yes, we are delighted to cater to **large groups and events** at our restaurants. 'The Azure Bistro' and 'Spice Route' both have ample seating and can accommodate private sections or full buyouts for larger parties. Our dedicated events team can work with you to create customized menus, arrange seating plans, and manage all the details for your group dining experience. Please contact our events coordinator well in advance to discuss your specific requirements and ensure a seamless event.",
+    "metadata": {
+      "category": "large-groups"
+    }
+  },
+  {
+    "id": "restaurant-44",
+    "text": "Our **dessert menu** at Paradise Resort offers a delightful array of sweet treats to conclude your meal. You'll find a mix of classic international desserts like cheesecakes and tiramisu, alongside local specialties infused with tropical flavors. Our pastry chefs also create seasonal desserts using fresh fruits. Don't forget to ask about our decadent chocolate creations or our refreshing sorbets. Each dessert is crafted with care to provide a perfect ending to your culinary journey.",
+    "metadata": {
+      "category": "dessert-menu"
+    }
+  },
+  {
+    "id": "restaurant-45",
+    "text": "Yes, we have a fully stocked **kids' club with supervised activities** that can be enjoyed while you dine. Our Paradise Kids' Club offers a safe and engaging environment for children aged 4-12, with a variety of games, crafts, and educational activities. This allows parents to enjoy a relaxed meal knowing their children are having fun and are well cared for. Please check with the Kids' Club for their operating hours and activity schedule.",
+    "metadata": {
+      "category": "kids-club"
+    }
+  },
+  {
+    "id": "restaurant-46",
+    "text": "At Paradise Resort, we celebrate **local culinary traditions** by incorporating authentic regional dishes into our menus, particularly at 'Spice Route.' Our chefs meticulously research and prepare traditional recipes using locally sourced ingredients, showcasing the rich flavors and aromas of the region. We aim to provide an immersive culinary experience that reflects the vibrant culture and heritage of our destination. Ask our staff for recommendations on local specialties to truly savor the essence of the locale.",
+    "metadata": {
+      "category": "local-cuisine"
+    }
+  },
+  {
+    "id": "restaurant-47",
+    "text": "Yes, **cooking classes** are available at Paradise Resort for guests interested in learning to prepare some of our signature dishes or local specialties. Our expert chefs lead interactive classes where you can learn culinary techniques and secrets. These classes are a fun and engaging way to experience our culinary culture firsthand. Please inquire with our concierge or events desk for the schedule, themes, and booking details, as spots are limited and reservations are required.",
+    "metadata": {
+      "category": "cooking-classes"
+    }
+  },
+  {
+    "id": "restaurant-48",
+    "text": "The **ambiance and decor** of our restaurants are distinct and designed to enhance your dining experience. 'The Azure Bistro' features a bright, contemporary design with floor-to-ceiling windows and an inviting open kitchen. 'Spice Route' offers an elegant and richly decorated interior, reflecting traditional Indian artistry and warmth. 'The Poolside Grill' provides a vibrant and relaxed outdoor setting with casual seating and tropical accents. Each space is crafted to create a unique and memorable atmosphere.",
+    "metadata": {
+      "category": "ambiance-decor"
+    }
+  },
+  {
+    "id": "restaurant-49",
+    "text": "Yes, our restaurants at Paradise Resort regularly feature **seasonal menus** to highlight the freshest ingredients available. Our chefs are dedicated to sourcing seasonal produce, seafood, and other local products to create dishes that are vibrant, flavorful, and reflective of the time of year. This ensures that our guests always have new and exciting culinary experiences to look forward to throughout their stay. Inquire with our staff about our current seasonal specials.",
+    "metadata": {
+      "category": "seasonal-menus"
+    }
+  },
+  {
+    "id": "restaurant-50",
+    "text": "For guests with **specific food requests for toddlers or infants**, our kitchen team is happy to assist. We can prepare simple, mashed, or pureed meals tailored to your child's needs, such as steamed vegetables, plain chicken, or fruit purees. Please communicate your requirements to our restaurant staff in advance or upon arrival, and they will work with the chefs to ensure your little one's meal is prepared safely and to your specifications. We also have bottle warming facilities available.",
+    "metadata": {
+      "category": "toddler-infant-food"
+    }
   }
 ]
 
