@@ -32,7 +32,7 @@ const ChatbotUI = () => {
     setIsTyping(true)
     
     try {
-      const response = await fetch('http://localhost:3000/query', {
+      const response = await fetch('https://hotel-j3ob.onrender.com/query', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ question: inputValue }),
