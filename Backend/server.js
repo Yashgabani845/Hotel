@@ -9,7 +9,7 @@ const app = express();
 const port = 3000;
 app.use(express.json());
 app.use(cors({
-  origin: 'https://hotel-nu-red.vercel.app/',
+  origin: 'https://hotel-nu-red.vercel.app',
   methods: ['GET', 'POST'],
   credentials: true
 }))
