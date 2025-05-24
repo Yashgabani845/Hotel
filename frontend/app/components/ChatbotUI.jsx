@@ -26,42 +26,42 @@ const ChatbotUI = () => {
     
     if (inputValue.trim() === '') return
     
-    // Add user message
     const userMessage = { sender: 'user', text: inputValue }
     setMessages(prev => [...prev, userMessage])
     setInputValue('')
     setIsTyping(true)
     
     try {
-      // TODO: Replace with your actual API call
-      // const response = await fetch('/api/chatbot', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify({ message: inputValue })
-      // })
-      // const data = await response.json()
+      const response = await fetch('http://localhost:3000/query', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ question: inputValue }),
+    });
       
-      // Simulate API delay
-      await new Promise(resolve => setTimeout(resolve, 1000))
-      
-      // Add bot response (replace with actual API response)
-      const botResponse = {
-        sender: 'bot',
-        text: 'I received your message. Please connect this to your backend API to get proper responses.'
-      }
-      
-      setMessages(prev => [...prev, botResponse])
-    } catch (error) {
-      console.error('Error:', error)
-      const errorResponse = {
-        sender: 'bot',
-        text: 'Sorry, I encountered an error. Please try again.'
-      }
-      setMessages(prev => [...prev, errorResponse])
-    } finally {
-      setIsTyping(false)
+     if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
     }
+
+    const data = await response.json();
+
+    const botResponse = {
+      sender: 'bot',
+      text: data.answer || 'Sorry, no answer received.',
+    };
+
+    setMessages(prev => [...prev, botResponse]);
+  } catch (error) {
+    console.error('Error:', error);
+    const errorResponse = {
+      sender: 'bot',
+      text: 'Sorry, I encountered an error. Please try again.',
+    };
+    setMessages(prev => [...prev, errorResponse]);
+  } finally {
+    setIsTyping(false);
   }
+};
+
 
   return (
     <div className="fixed bottom-6 right-6 z-50">
@@ -77,24 +77,19 @@ const ChatbotUI = () => {
         </div>
       </div>
       
-      {/* Chat Panel */}
       <div 
         className={`absolute bottom-20 right-0 w-80 bg-white rounded-2xl shadow-2xl border border-gray-200 overflow-hidden transition-all duration-300 transform origin-bottom-right ${
           isOpen ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-95 translate-y-4 pointer-events-none'
         }`}
         style={{ height: isOpen ? '500px' : '0' }}
       >
-        {/* Chat Header */}
         <div className="bg-primary-700 p-4 flex items-center">
           <div className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mr-3 border border-white/30">
             <FiMessageSquare className="text-white" size={20} />
           </div>
           <div>
             <h3 className="text-white font-semibold text-lg">Chat Assistant</h3>
-            <div className="flex items-center">
-              <div className="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></div>
-              <p className="text-primary-100 text-sm">Online</p>
-            </div>
+           
           </div>
         </div>
         
@@ -128,7 +123,6 @@ const ChatbotUI = () => {
           )}
         </div>
         
-        {/* Chat Input */}
         <div className="p-4 bg-white border-t border-gray-100">
           <form onSubmit={handleSubmit} className="flex items-center space-x-2">
             <input 
